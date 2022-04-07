@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, and, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+	background:transparent;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+} 
+
+body{
+    
+    background-color: black;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding-top: 22px;
+    
+    
+}
+
+.img{
+    display: flex;
+    padding-top: 42px;
+    width: 229px;
+    height: 68px;
+
+}
+
+.cabecalho-pergunta{
+
+    display: flex;    
+    color: white;
+    font-size: 32px;
+    padding-top: 73px;
+    top: 283px;
+    left: 464px;
+ 
+
+}
+.h2{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+
+.button{
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 206px;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    margin-top: 150px;
+    justify-content: center;
+    align-content: center;
+    
+    text-align: center;
+    
+
+}
+.button:hover, .click:hover{
+    background-color: white;
+    color: black;
+}
+
+.click{
+
+    display: flex;
+    text-align:center;
+    color: white;
+    padding-top: 15px;
+    
+}
+
+
+ul.perfis{
+
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    align-items:flex-start;
+    ;
+
+}
+
+figure{
+
+    border-radius: 25px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+
+img.imagemAvatar:hover{
+
+    transform: scale(1.25);
+}
+
+.avatar1{
+    margin-right: 15px;
+    color: white;
+    align-items: flex-end;
+    border-radius: 50px;
+    
+    
+}
+.avatar2{
+    margin-right: 15px;
+    color: white;
+    align-items: center;
+}
+.avatar3{
+    margin-right: 15px;
+    color: white;
+    align-items: center;
+}
+.frame1{
+    margin-right: 15px;
+    color: white;
+    align-items: center;
+}
+p{
+    margin-top: 15px;
+}
